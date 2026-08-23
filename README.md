@@ -32,7 +32,8 @@ Z408 and Z340 act like answer keys. If a method cannot recover useful informatio
 
 - Project setup is complete.
 - The four cipher records and source images have been collected and checked.
-- Next: explore their visible patterns and compare the solved and unsolved messages.
+- Structural exploration and the classical simulated-annealing baseline are complete.
+- Next: generate the reproducible synthetic dataset.
 
 The guiding rule is simple: **interesting is not the same as proven.** This project ranks possibilities; it does not identify a suspect or claim that Z13 or Z32 has one certain solution.
 
@@ -41,6 +42,7 @@ The guiding rule is simple: **interesting is not the same as proven.** This proj
 - [`docs/plan.md`](docs/plan.md) — the step-by-step research plan
 - [`docs/architecture.md`](docs/architecture.md) — how the analysis will fit together
 - [`docs/phases/phase-1/`](docs/phases/phase-1/) — how the cipher data was checked
+- [`docs/phases/phase-3/`](docs/phases/phase-3/) — classical baseline implementation and results
 - [`data/raw/`](data/raw/) — verified cipher records and source images
 
 <details>

@@ -30,7 +30,7 @@ Run a notebook cell that imports all three packages and prints the Python versio
 
 Assert the expected lengths: 408, 340, 13, and 32 symbols. Document any ambiguity rather than silently correcting it.
 
-## Phase 2 — Explore the ciphers
+## Phase 2 — Explore the ciphers (completed)
 
 ### Tasks
 
@@ -43,7 +43,7 @@ Assert the expected lengths: 408, 340, 13, and 32 symbols. Document any ambiguit
 
 The notebook runs top-to-bottom and produces a short observations section supported by calculated results.
 
-## Phase 3 — Build the classical baseline
+## Phase 3 — Build the classical baseline (completed)
 
 ### Tasks
 

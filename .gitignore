@@ -1,4 +1,5 @@
 2403.17350v1.pdf
 .agents/
 .venv/
+__pycache__/
 skills-lock.json
