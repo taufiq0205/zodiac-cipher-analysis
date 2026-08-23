@@ -1,7 +1,9 @@
 # Final Project Report: Zodiac Cipher Analysis
 
-**Date:** 24 August 2026  
-**Scope:** Z408, Z340, Z13, and Z32  
+**Date:** 24 August 2026
+
+**Scope:** Z408, Z340, Z13, and Z32
+
 **Status:** Phase 6 complete
 
 ## Executive summary
