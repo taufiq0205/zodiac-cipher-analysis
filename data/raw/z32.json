@@ -1,0 +1,13 @@
+{
+  "cipher": "Z32",
+  "dimensions": [1, 32],
+  "source_url": "https://vault.fbi.gov/The%20Zodiac%20Killer/",
+  "rows": [["C", "triangle_outline", "J", "I", "square_filled", "O", "K_reversed", "anchor", "A", "M", "triangle_filled", "omega", "circle_with_tail", "O", "R", "T", "G", "X", "circle_dot", "F", "D", "V", "J_reversed", "square_diagonal", "H", "C", "E", "L", "circle_crosshair", "P", "W", "triangle_outline"]],
+  "ambiguities": [
+    {"row": 1, "column": 7, "observed": "K_reversed_or_K"},
+    {"row": 1, "column": 8, "observed": "anchor_or_cross_like_symbol"},
+    {"row": 1, "column": 13, "observed": "question_mark_like_circle_with_tail"},
+    {"row": 1, "column": 19, "observed": "circle_dot_or_circle_empty"},
+    {"row": 1, "column": 24, "observed": "square_diagonal_or_square_filled"}
+  ]
+}
