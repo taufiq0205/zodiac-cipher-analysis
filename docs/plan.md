@@ -76,7 +76,7 @@ The baseline consistently recovers useful plaintext from held-out synthetic samp
 
 A fixed random seed reproduces the dataset, and no source passage crosses dataset splits.
 
-## Phase 5 — Add ML only if justified
+## Phase 5 — Add ML only if justified (completed)
 
 ### Decision gate
 

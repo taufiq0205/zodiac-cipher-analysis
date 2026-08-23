@@ -8,10 +8,10 @@ flowchart LR
 
     C --> E[Feature extraction<br/>frequency, n-grams, entropy, grid patterns]
     E --> F[Classical baseline<br/>hill climbing / simulated annealing]
-    E --> G[ML candidate ranker]
+    E --> G[ML family classifier]
 
     F --> H[Candidate plaintexts]
-    G --> H
+    G --> I
     H --> I[Evaluation<br/>recovery accuracy, rank, robustness]
 
     I -->|validate| J[Known solutions<br/>Z408 and Z340]
