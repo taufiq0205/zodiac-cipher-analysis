@@ -32,8 +32,9 @@ Z408 and Z340 act like answer keys. If a method cannot recover useful informatio
 
 - Project setup is complete.
 - The four cipher records and source images have been collected and checked.
-- Structural exploration and the classical simulated-annealing baseline are complete.
-- Next: generate the reproducible synthetic dataset.
+- Structural exploration, the classical baseline, and reproducible synthetic dataset are complete.
+- A small ML classifier earned its place as a synthetic cipher-family router; it is not a decoder.
+- Next: validate the frozen pipeline and report its limits.
 
 The guiding rule is simple: **interesting is not the same as proven.** This project ranks possibilities; it does not identify a suspect or claim that Z13 or Z32 has one certain solution.
 
@@ -43,6 +44,7 @@ The guiding rule is simple: **interesting is not the same as proven.** This proj
 - [`docs/architecture.md`](docs/architecture.md) — how the analysis will fit together
 - [`docs/phases/phase-1/`](docs/phases/phase-1/) — how the cipher data was checked
 - [`docs/phases/phase-3/`](docs/phases/phase-3/) — classical baseline implementation and results
+- [`docs/phases/phase-5/`](docs/phases/phase-5/) — ML decision, experiment, and limitations
 - [`data/raw/`](data/raw/) — verified cipher records and source images
 
 <details>
