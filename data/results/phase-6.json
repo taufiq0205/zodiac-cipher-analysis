@@ -1,0 +1,459 @@
+{
+  "configuration": {
+    "random_seeds_fixed": true,
+    "steps": 30000,
+    "restarts": 8
+  },
+  "training_feature_ranges": {
+    "alphabet_size": [
+      21,
+      44
+    ],
+    "entropy": [
+      4.023150511750104,
+      5.245805202478351
+    ],
+    "index_of_coincidence": [
+      0.02552954292084727,
+      0.07235228539576366
+    ],
+    "repeated_bigrams": [
+      17,
+      78
+    ],
+    "repeated_trigrams": [
+      0,
+      24
+    ],
+    "adjacent_match_rate": [
+      0.016722408026755852,
+      0.10702341137123746
+    ],
+    "lag_17_match_rate": [
+      0.007067137809187279,
+      0.09540636042402827
+    ]
+  },
+  "known_ciphers": {
+    "Z408": {
+      "expected_family": "homophonic",
+      "family_ranking": [
+        {
+          "family": "homophonic",
+          "probability": 0.9992444777171804
+        },
+        {
+          "family": "both",
+          "probability": 0.0005871158118683912
+        },
+        {
+          "family": "transposition",
+          "probability": 0.00016840647095121456
+        }
+      ],
+      "features_outside_training_range": [
+        "alphabet_size",
+        "entropy",
+        "index_of_coincidence",
+        "adjacent_match_rate"
+      ],
+      "error_sensitivity": [
+        {
+          "copy_error_rate": 0.0,
+          "changed_symbols": 0,
+          "family_ranking": [
+            {
+              "family": "homophonic",
+              "probability": 0.9992444777171804
+            },
+            {
+              "family": "both",
+              "probability": 0.0005871158118683912
+            },
+            {
+              "family": "transposition",
+              "probability": 0.00016840647095121456
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "index_of_coincidence",
+            "adjacent_match_rate"
+          ]
+        },
+        {
+          "copy_error_rate": 0.01,
+          "changed_symbols": 4,
+          "family_ranking": [
+            {
+              "family": "homophonic",
+              "probability": 0.9990696126576143
+            },
+            {
+              "family": "both",
+              "probability": 0.0006879434207772844
+            },
+            {
+              "family": "transposition",
+              "probability": 0.00024244392160862726
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "index_of_coincidence"
+          ]
+        },
+        {
+          "copy_error_rate": 0.03,
+          "changed_symbols": 12,
+          "family_ranking": [
+            {
+              "family": "homophonic",
+              "probability": 0.996313866006145
+            },
+            {
+              "family": "both",
+              "probability": 0.0031309955984286197
+            },
+            {
+              "family": "transposition",
+              "probability": 0.0005551383954264081
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "index_of_coincidence"
+          ]
+        }
+      ],
+      "classical_decoder": [
+        {
+          "copy_error_rate": 0.0,
+          "changed_symbols": 0,
+          "character_accuracy": 0.03178484107579462,
+          "ngram_score": -2230.7305170979857,
+          "runtime_seconds": 11.64077941600408,
+          "candidate_preview": "EAEBNBYHADMEGLIGHTAUTGRCOELESWINRTUNRZYIDENOWPDRVMAQJBETHEMERYAKENNFDZSUNNOCHLCLATTERSUNGVEWIAONIIMX"
+        },
+        {
+          "copy_error_rate": 0.01,
+          "changed_symbols": 4,
+          "character_accuracy": 0.03667481662591687,
+          "ngram_score": -2208.312376187758,
+          "runtime_seconds": 12.369841291001649,
+          "candidate_preview": "TTNXGXFETFORVGRVEDAWEBHPTTINICAEHENSHOFAFTESMCQHUINWZZTHENORAFTJRSELFOONGSTMYGPIADETHIWEBUTCANTERDIU"
+        },
+        {
+          "copy_error_rate": 0.03,
+          "changed_symbols": 12,
+          "character_accuracy": 0.10024449877750612,
+          "ngram_score": -2243.2583208021706,
+          "runtime_seconds": 12.225572124996688,
+          "candidate_preview": "AYISISHLYWZQDOEDDTFORFIBEACINGESIRHCIPHEWASAMOVINGWAKSALLIZQMHYJQCSUWPPHICERTOBCFTRAINOSFNAGEWESENGD"
+        }
+      ]
+    },
+    "Z340": {
+      "expected_family": "both",
+      "family_ranking": [
+        {
+          "family": "both",
+          "probability": 0.7592010163907363
+        },
+        {
+          "family": "homophonic",
+          "probability": 0.24077095176147184
+        },
+        {
+          "family": "transposition",
+          "probability": 2.8031847791881606e-05
+        }
+      ],
+      "features_outside_training_range": [
+        "alphabet_size",
+        "entropy",
+        "index_of_coincidence",
+        "adjacent_match_rate"
+      ],
+      "error_sensitivity": [
+        {
+          "copy_error_rate": 0.0,
+          "changed_symbols": 0,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.7592010163907363
+            },
+            {
+              "family": "homophonic",
+              "probability": 0.24077095176147184
+            },
+            {
+              "family": "transposition",
+              "probability": 2.8031847791881606e-05
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "index_of_coincidence",
+            "adjacent_match_rate"
+          ]
+        },
+        {
+          "copy_error_rate": 0.01,
+          "changed_symbols": 3,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.8320100730800223
+            },
+            {
+              "family": "homophonic",
+              "probability": 0.1679605330271786
+            },
+            {
+              "family": "transposition",
+              "probability": 2.9393892799169275e-05
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "index_of_coincidence"
+          ]
+        },
+        {
+          "copy_error_rate": 0.03,
+          "changed_symbols": 10,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.8888074490825885
+            },
+            {
+              "family": "homophonic",
+              "probability": 0.11115200483934588
+            },
+            {
+              "family": "transposition",
+              "probability": 4.054607806573073e-05
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "index_of_coincidence"
+          ]
+        }
+      ]
+    }
+  },
+  "known_family_validation_passed": true,
+  "unsolved_ciphers": {
+    "Z13": {
+      "family_ranking": [
+        {
+          "family": "both",
+          "probability": 0.9199909636847883
+        },
+        {
+          "family": "transposition",
+          "probability": 0.0799462748384419
+        },
+        {
+          "family": "homophonic",
+          "probability": 6.276147676971203e-05
+        }
+      ],
+      "features_outside_training_range": [
+        "alphabet_size",
+        "entropy",
+        "repeated_bigrams",
+        "adjacent_match_rate",
+        "lag_17_match_rate"
+      ],
+      "error_sensitivity": [
+        {
+          "copy_error_rate": 0.0,
+          "changed_symbols": 0,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.9199909636847883
+            },
+            {
+              "family": "transposition",
+              "probability": 0.0799462748384419
+            },
+            {
+              "family": "homophonic",
+              "probability": 6.276147676971203e-05
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "repeated_bigrams",
+            "adjacent_match_rate",
+            "lag_17_match_rate"
+          ]
+        },
+        {
+          "copy_error_rate": 0.01,
+          "changed_symbols": 0,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.9199909636847883
+            },
+            {
+              "family": "transposition",
+              "probability": 0.0799462748384419
+            },
+            {
+              "family": "homophonic",
+              "probability": 6.276147676971203e-05
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "repeated_bigrams",
+            "adjacent_match_rate",
+            "lag_17_match_rate"
+          ]
+        },
+        {
+          "copy_error_rate": 0.03,
+          "changed_symbols": 0,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.9199909636847883
+            },
+            {
+              "family": "transposition",
+              "probability": 0.0799462748384419
+            },
+            {
+              "family": "homophonic",
+              "probability": 6.276147676971203e-05
+            }
+          ],
+          "features_outside_training_range": [
+            "alphabet_size",
+            "entropy",
+            "repeated_bigrams",
+            "adjacent_match_rate",
+            "lag_17_match_rate"
+          ]
+        }
+      ],
+      "interpretation": "exploratory_only",
+      "plaintext_candidates": [],
+      "reason": "The frozen pipeline has no combined-cipher decoder, and this input is outside its training range."
+    },
+    "Z32": {
+      "family_ranking": [
+        {
+          "family": "both",
+          "probability": 0.9962988474615408
+        },
+        {
+          "family": "homophonic",
+          "probability": 0.0036211997229561722
+        },
+        {
+          "family": "transposition",
+          "probability": 7.99528155029201e-05
+        }
+      ],
+      "features_outside_training_range": [
+        "index_of_coincidence",
+        "repeated_bigrams",
+        "adjacent_match_rate",
+        "lag_17_match_rate"
+      ],
+      "error_sensitivity": [
+        {
+          "copy_error_rate": 0.0,
+          "changed_symbols": 0,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.9962988474615408
+            },
+            {
+              "family": "homophonic",
+              "probability": 0.0036211997229561722
+            },
+            {
+              "family": "transposition",
+              "probability": 7.99528155029201e-05
+            }
+          ],
+          "features_outside_training_range": [
+            "index_of_coincidence",
+            "repeated_bigrams",
+            "adjacent_match_rate",
+            "lag_17_match_rate"
+          ]
+        },
+        {
+          "copy_error_rate": 0.01,
+          "changed_symbols": 0,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.9962988474615408
+            },
+            {
+              "family": "homophonic",
+              "probability": 0.0036211997229561722
+            },
+            {
+              "family": "transposition",
+              "probability": 7.99528155029201e-05
+            }
+          ],
+          "features_outside_training_range": [
+            "index_of_coincidence",
+            "repeated_bigrams",
+            "adjacent_match_rate",
+            "lag_17_match_rate"
+          ]
+        },
+        {
+          "copy_error_rate": 0.03,
+          "changed_symbols": 1,
+          "family_ranking": [
+            {
+              "family": "both",
+              "probability": 0.9987854433470186
+            },
+            {
+              "family": "homophonic",
+              "probability": 0.0010714834013143062
+            },
+            {
+              "family": "transposition",
+              "probability": 0.00014307325166704334
+            }
+          ],
+          "features_outside_training_range": [
+            "index_of_coincidence",
+            "repeated_bigrams",
+            "lag_17_match_rate"
+          ]
+        }
+      ],
+      "interpretation": "exploratory_only",
+      "plaintext_candidates": [],
+      "reason": "The frozen pipeline has no combined-cipher decoder, and this input is outside its training range."
+    }
+  }
+}
