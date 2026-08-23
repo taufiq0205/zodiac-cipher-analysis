@@ -17,7 +17,7 @@ Build a reproducible pipeline that ranks cipher hypotheses and communicates unce
 
 Run a notebook cell that imports all three packages and prints the Python version.
 
-## Phase 1 — Acquire and verify data
+## Phase 1 — Acquire and verify data (completed)
 
 ### Tasks
 
