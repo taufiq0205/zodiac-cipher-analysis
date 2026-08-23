@@ -28,11 +28,11 @@ flowchart LR
 
 Z408 and Z340 act like answer keys. If a method cannot recover useful information from them without secretly seeing the answer, there is little reason to trust it on the unsolved ciphers. This keeps the project grounded in evidence instead of wishful pattern-matching.
 
-## Progress
+## What the project found
 
-- Project setup is complete.
-- The four cipher records and source images have been collected and checked.
-- Structural exploration, the classical baseline, and reproducible synthetic dataset are complete.
+- All six planned phases are complete.
+- The four cipher records and source images were collected and checked.
+- Structural exploration, a classical baseline, and a reproducible synthetic dataset were completed.
 - A small ML classifier earned its place as a synthetic cipher-family router; it is not a decoder.
 - Final validation is complete. The classifier reproduced the expected broad family for both solved ciphers, but the classical decoder recovered only 3.2% of Z408. No solution is claimed for Z13 or Z32.
 
@@ -41,7 +41,7 @@ The guiding rule is simple: **interesting is not the same as proven.** This proj
 ## Explore the project
 
 - [`docs/plan.md`](docs/plan.md) — the step-by-step research plan
-- [`docs/architecture.md`](docs/architecture.md) — how the analysis will fit together
+- [`docs/architecture.md`](docs/architecture.md) — how the analysis fits together
 - [`docs/phases/phase-1/`](docs/phases/phase-1/) — how the cipher data was checked
 - [`docs/phases/phase-3/`](docs/phases/phase-3/) — classical baseline implementation and results
 - [`docs/phases/phase-5/`](docs/phases/phase-5/) — ML decision, experiment, and limitations
@@ -55,6 +55,8 @@ The guiding rule is simple: **interesting is not the same as proven.** This proj
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python -m src.phase6
 ```
 
 </details>
