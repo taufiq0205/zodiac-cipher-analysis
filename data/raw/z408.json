@@ -1,0 +1,32 @@
+{
+  "cipher": "Z408",
+  "dimensions": [24, 17],
+  "source_url": "https://vault.fbi.gov/The%20Zodiac%20Killer/",
+  "rows": [
+    ["triangle_outline", "square_diagonal", "P", "slash", "Z", "slash", "U", "B", "square_diagonal", "K_reversed", "O", "R", "K_rotated", "P_reversed", "X", "K_rotated", "B"],
+    ["W", "V", "plus", "E_reversed", "G", "Y", "F", "circle_dot", "triangle_outline", "H", "P", "square_dot", "K", "I", "Q_reversed", "Y", "E_reversed"],
+    ["M", "J", "Y", "caret", "U", "I", "K_reversed", "triangle_outline", "Q_reversed", "T", "T_upside_down", "N", "Q", "Y", "D", "circle_filled", "circle_horizontal"],
+    ["S", "phi", "slash", "triangle_outline", "square_filled", "B", "P", "O", "R", "A", "U", "square_diagonal", "F_reversed", "R", "J", "Q_reversed", "E"],
+    ["K_reversed", "caret", "L", "M", "Z", "J", "circle_dot", "R_reversed", "backslash", "P_reversed", "F", "H", "V", "W", "E_reversed", "triangle_outline", "Y"],
+    ["square_dot", "plus", "Q_reversed", "G", "D", "triangle_outline", "K", "I", "circle_horizontal", "circle_dot", "Q_reversed", "X", "triangle_filled", "circle_filled", "circle_crosshair", "S", "phi"],
+    ["R", "N", "T_upside_down", "I", "Y", "E_reversed", "T_upside_down", "O", "triangle_filled", "Q_reversed", "G", "B", "T", "circle_dot", "S", "square_filled", "B"],
+    ["L", "circle_dot", "slash", "P", "square_filled", "B", "square_dot", "X", "Q_reversed", "E", "H", "M", "U", "caret", "R", "R", "K_reversed"],
+    ["C_reversed", "Z", "K", "Q_reversed", "P_reversed", "I", "circle_horizontal", "W", "Q_reversed", "I", "triangle_filled", "circle_filled", "L", "M", "R_reversed", "triangle_outline", "square_filled"],
+    ["B", "P", "D", "R", "plus", "T", "K_rotated", "circle_dot", "backslash", "N", "phi", "E_reversed", "E", "U", "H", "K_reversed", "F"],
+    ["Z", "C_reversed", "P_reversed", "O", "V", "W", "I", "circle_filled", "plus", "T_upside_down", "L", "circle_horizontal", "J", "caret", "R", "circle_dot", "H"],
+    ["I", "triangle_outline", "D", "R", "square_outline", "T", "Y", "R_reversed", "backslash", "circle_dot", "E_reversed", "slash", "square_dot", "X", "J", "circle_dot", "A"],
+    ["P", "circle_filled", "M", "triangle_filled", "R", "U", "T_upside_down", "square_diagonal", "L", "circle_horizontal", "N", "V", "E", "K", "H", "K_rotated", "G"],
+    ["R_reversed", "I", "I", "J", "K_reversed", "circle_filled", "triangle_outline", "triangle_filled", "L", "M", "J", "N", "A", "circle_horizontal", "Z", "phi", "P"],
+    ["circle_crosshair", "U", "P_reversed", "K_reversed", "A", "triangle_outline", "square_filled", "B", "V", "W", "backslash", "plus", "V", "T", "T_upside_down", "O", "P"],
+    ["caret", "K_rotated", "S", "R_reversed", "J", "F_reversed", "U", "E_reversed", "circle_dot", "triangle_outline", "D", "circle_crosshair", "G", "square_diagonal", "square_diagonal", "I", "M"],
+    ["N", "K_reversed", "circle_horizontal", "S", "C_reversed", "E_reversed", "slash", "triangle_outline", "square_diagonal", "square_diagonal", "Z", "F_reversed", "A", "P", "square_filled", "B", "V"],
+    ["P_reversed", "E_reversed", "X", "Q_reversed", "W", "Q_reversed", "square_outline", "F", "square_filled", "triangle_filled", "C_reversed", "plus", "square_dot", "triangle_outline", "A", "triangle_outline", "B"],
+    ["square_diagonal", "O", "T", "circle_filled", "R", "U", "C_reversed", "plus", "square_outline", "circle_dot", "Y", "Q_reversed", "square_outline", "caret", "S", "Q_reversed", "W"],
+    ["V", "Z", "E_reversed", "G", "Y", "K", "E", "square_outline", "T", "Y", "A", "triangle_outline", "square_diagonal", "square_filled", "L", "T_upside_down", "square_outline"],
+    ["H", "I", "F", "B", "X", "triangle_outline", "circle_crosshair", "X", "A", "D", "circle_dot", "backslash", "triangle_outline", "L", "I", "K_rotated", "Q_reversed"],
+    ["square_outline", "E_reversed", "circle_dot", "square_filled", "square_filled", "circle_dot", "E_reversed", "circle_filled", "P", "O", "R", "X", "Q", "F", "square_diagonal", "G", "C_reversed"],
+    ["Z", "square_dot", "J", "T", "T_upside_down", "Q_reversed", "square_outline", "triangle_filled", "J", "I", "plus", "R_reversed", "B", "P", "Q", "W", "circle_dot"],
+    ["V", "E", "X", "R_reversed", "triangle_outline", "W", "I", "circle_dot", "Q_reversed", "E", "H", "M", "circle_horizontal", "K_rotated", "U", "I", "K_reversed"]
+  ],
+  "ambiguities": []
+}

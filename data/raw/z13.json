@@ -1,0 +1,10 @@
+{
+  "cipher": "Z13",
+  "dimensions": [1, 13],
+  "source_url": "https://vault.fbi.gov/The%20Zodiac%20Killer/",
+  "rows": [["A", "E", "N", "circle_crosshair", "circle_eight", "K", "circle_eight", "M", "circle_eight", "anchor", "N", "A_reversed", "M"]],
+  "ambiguities": [
+    {"row": 1, "column": 10, "observed": "anchor_or_T_upside_down"},
+    {"row": 1, "column": 12, "observed": "A_or_A_reversed"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "cipher": "Z340",
+  "dimensions": [20, 17],
+  "source_url": "https://vault.fbi.gov/The%20Zodiac%20Killer/",
+  "rows": [
+    ["H", "E", "R", "greater_than", "P_reversed", "L_reversed", "caret", "V", "P", "K_reversed", "I", "circle_half_filled_lower", "L", "T", "G", "circle_half_filled_upper", "D_reversed_dot"],
+    ["N", "P_reversed", "plus", "B", "phi", "square_filled", "O", "square_diagonal", "D", "W", "Y", "dot", "less_than", "square_diagonal_reversed", "K", "F_reversed", "circle_horizontal"],
+    ["B", "gamma", "I_anchor_dot_right", "C_reversed", "M", "plus", "u_lowercase", "Z", "G", "W", "phi", "circle_horizontal", "L", "square_filled", "circle_crosshair", "H", "J"],
+    ["S", "P_reversed", "P_reversed", "triangle_dot", "caret", "L_reversed", "triangle_filled", "square_diagonal_reversed", "V", "circle_half_filled_right", "P_reversed", "O", "plus", "plus", "R", "K", "circle_half_filled_upper"],
+    ["square_outline", "triangle_outline", "M", "plus", "circle_crosshair", "T_upside_down", "J_reversed", "D_reversed", "I", "circle_filled", "F", "P", "plus", "P", "circle_half_filled_left", "K_reversed", "slash"],
+    ["P_reversed", "triangle_filled", "R", "caret", "F", "L_reversed", "O", "dash", "square_diagonal_reversed", "D_reversed", "C", "K_reversed", "F", "greater_than", "circle_half_filled_upper", "D", "phi"],
+    ["square_filled", "circle_filled", "plus", "K", "Q_reversed", "square_diagonal", "dot_left_I_anchor", "circle_half_filled_upper", "u_lowercase", "C_reversed", "X", "G", "V", "dot", "circle_crosshair", "L", "I"],
+    ["phi", "G", "circle_half_filled_upper", "J", "F_reversed", "J_reversed", "square_filled", "O", "plus", "square_outline", "N", "Y", "circle_crosshair", "plus", "square_dot", "L", "triangle_outline"],
+    ["circle_dot", "less_than", "M", "plus", "B_reversed", "plus", "Z", "R", "circle_half_filled_upper", "F", "B", "C_reversed", "Y_reversed", "A", "circle_dot", "circle_half_filled_left", "K"],
+    ["dash", "circle_crosshair", "L_reversed", "u_lowercase", "V", "plus", "caret", "J", "plus", "O", "P_reversed", "triangle_dot", "less_than", "F", "B", "Y_reversed", "dash"],
+    ["u_lowercase", "plus", "R", "slash", "circle_filled", "T_upside_down", "E", "I", "D", "Y", "B", "P_reversed", "B_reversed", "T", "M", "K", "O"],
+    ["circle_half_filled_upper", "less_than", "C_reversed", "L_reversed", "R", "J", "I", "square_diagonal_reversed", "circle_filled", "T", "circle_half_filled_left", "M", "dot", "plus", "P", "B", "F"],
+    ["circle_crosshair", "circle_dot", "triangle_outline", "S", "Y_reversed", "square_filled", "plus", "N", "I", "circle_filled", "F", "B", "C_reversed", "phi", "dot_left_I_anchor", "triangle_filled", "R"],
+    ["L_reversed", "G", "F", "N", "caret", "F_reversed", "circle_filled", "circle_half_filled_upper", "circle_half_filled_left", "B_reversed", "dot", "C_reversed", "V", "circle_half_filled_left", "T_upside_down", "plus", "plus"],
+    ["Y_reversed", "B", "X", "circle_half_filled_lower", "square_diagonal_reversed", "I_anchor_dot_right", "circle_half_filled_left", "triangle_outline", "C", "E", "greater_than", "V", "u_lowercase", "Z", "circle_filled", "dash", "plus"],
+    ["I", "C_reversed", "dot", "circle_half_filled_right", "circle_crosshair", "B", "K", "phi", "O", "P_reversed", "caret", "dot", "F_reversed", "M", "Q_reversed", "G", "circle_half_filled_upper"],
+    ["R", "C_reversed", "T", "plus", "L", "circle_half_filled_lower", "circle_dot", "C", "less_than", "plus", "F", "L_reversed", "W", "B", "I", "circle_horizontal", "L"],
+    ["plus", "plus", "circle_horizontal", "W", "C", "circle_crosshair", "W", "C_reversed", "P", "O", "S", "H", "T", "slash", "phi", "circle_horizontal", "P_reversed"],
+    ["I", "F", "K_reversed", "D_reversed", "W", "less_than", "triangle_dot", "T_upside_down", "B", "square_outline", "Y", "O", "B", "square_diagonal_reversed", "dash", "C", "C_reversed"],
+    ["greater_than", "M", "D", "H", "N", "P_reversed", "K_reversed", "S", "circle_crosshair", "Z", "O", "triangle_filled", "A", "I", "K", "dot_left_I_anchor", "plus"]
+  ],
+  "ambiguities": [
+    {"row": 1, "column": 17, "observed": "reversed_D_with_dot_or_reversed_D"},
+    {"row": 3, "column": 3, "observed": "anchor_I_with_right_dot"},
+    {"row": 7, "column": 7, "observed": "left_dot_or_anchor_I_dot"},
+    {"row": 13, "column": 15, "observed": "left_dot_or_anchor_I_dot"},
+    {"row": 15, "column": 6, "observed": "anchor_I_with_right_dot"},
+    {"row": 20, "column": 16, "observed": "left_dot_or_anchor_I_dot"}
+  ]
+}
