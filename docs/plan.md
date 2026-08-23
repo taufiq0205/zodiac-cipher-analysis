@@ -92,7 +92,7 @@ Continue only if a specific baseline weakness can be measured. Otherwise, keep t
 
 Keep the ML component only if it improves a predefined metric and remains understandable. Report negative results if it does not.
 
-## Phase 6 — Validate and report
+## Phase 6 — Validate and report (completed)
 
 ### Tasks
 

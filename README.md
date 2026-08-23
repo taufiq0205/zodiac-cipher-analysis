@@ -34,7 +34,7 @@ Z408 and Z340 act like answer keys. If a method cannot recover useful informatio
 - The four cipher records and source images have been collected and checked.
 - Structural exploration, the classical baseline, and reproducible synthetic dataset are complete.
 - A small ML classifier earned its place as a synthetic cipher-family router; it is not a decoder.
-- Next: validate the frozen pipeline and report its limits.
+- Final validation is complete. The classifier reproduced the expected broad family for both solved ciphers, but the classical decoder recovered only 3.2% of Z408. No solution is claimed for Z13 or Z32.
 
 The guiding rule is simple: **interesting is not the same as proven.** This project ranks possibilities; it does not identify a suspect or claim that Z13 or Z32 has one certain solution.
 
@@ -45,6 +45,7 @@ The guiding rule is simple: **interesting is not the same as proven.** This proj
 - [`docs/phases/phase-1/`](docs/phases/phase-1/) — how the cipher data was checked
 - [`docs/phases/phase-3/`](docs/phases/phase-3/) — classical baseline implementation and results
 - [`docs/phases/phase-5/`](docs/phases/phase-5/) — ML decision, experiment, and limitations
+- [`docs/phases/phase-6/report.md`](docs/phases/phase-6/report.md) — final methodology, results, and limitations
 - [`data/raw/`](data/raw/) — verified cipher records and source images
 
 <details>
