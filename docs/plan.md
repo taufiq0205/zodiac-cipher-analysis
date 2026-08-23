@@ -63,7 +63,7 @@ The notebook runs top-to-bottom and produces a short observations section suppor
 
 The baseline consistently recovers useful plaintext from held-out synthetic samples. Record failures honestly.
 
-## Phase 4 — Generate synthetic data
+## Phase 4 — Generate synthetic data (completed)
 
 ### Tasks
 
